@@ -1,6 +1,6 @@
 pipeline{
     agent any
-	tools {node js "my_nodejs"}
+	tools {nodejs "my_nodejs"}
     stages{
         stage("check node version"){
             steps{
